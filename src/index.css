@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-blue: #0062ff;
+    --brand-blue-dark: #004ecc;
+    --brand-yellow: #ffb800;
+    --brand-yellow-hover: #e5a500;
+    --brand-navy: #0b1a30;
+  }
+
+  html[dir="rtl"] {
+    font-family: 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  html[dir="ltr"] {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom smooth transitions and animations */
+.harryup-logo-badge {
+  background: linear-gradient(135deg, #0b1a30 0%, #162a4d 100%);
+}
+
+.glow-subtle {
+  box-shadow: 0 4px 20px -2px rgba(0, 98, 255, 0.12);
+}

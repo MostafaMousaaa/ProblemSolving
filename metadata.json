@@ -1,0 +1,6 @@
+{
+  "name": "HarryUp - University Transportation Platform",
+  "description": "Digital transportation booking platform connecting university students with SuperJet operators and authorized drivers between Tuba and Luxor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
