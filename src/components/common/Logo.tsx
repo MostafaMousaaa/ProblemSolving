@@ -34,7 +34,7 @@ export const Logo: React.FC<LogoProps> = ({
         onClick={onClick}
       >
         <img 
-          src="/assets/aistudio/HarryUP_7ba66f9e.jpg" 
+          src={`${import.meta.env.BASE_URL}assets/aistudio/HarryUP_7ba66f9e.jpg`}
           alt="HarryUp Official Brand Logo" 
           className={`${sizeClasses[size]} object-contain rounded-lg shadow-xs hover:opacity-95 transition-opacity`}
         />
